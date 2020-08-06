@@ -23,14 +23,28 @@ body {
 
 }
 
+#custom-card {
+    color: white;
+    opacity: 1;
+}
+
+#custom-card:hover {
+    opacity: .5;
+    transition: opacity .8 ease-out;
+    -moz-transition: opacity .8s ease-out;
+    -webkit-transition: opacity .8s ease-out;
+    -o-transition: opacity .8s ease-out; 
+}
 
 .contentContainer1 {
     text-align: center;
 }
 
 
-h1 {
+.name {
     color: rgb(130, 46, 240);
+    font-family: 'Italianno', cursive;
+    font-size: 100px;
 }
 
 .headShot {
@@ -39,7 +53,7 @@ h1 {
 }
 
 .introContainer {
-    opacity: .8;
+    opacity: .6;
     text-align: center;
 }
 
@@ -88,3 +102,7 @@ h1 {
   
     }
   }
+
+.title {
+    color: rgb(16, 159, 255);
+}
